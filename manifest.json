@@ -1,0 +1,29 @@
+{
+  "name": "File URI Handler",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "A chromium extension to intercept file hyperlinks and open them in a new tab.",
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "64": "icons/64.png",
+    "128": "icons/128.png",
+    "256": "icons/256.png"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"],
+		"persistent": false
+  },
+	"content_scripts": [{
+		"all_frames": true,
+		"matches": [
+			"*://*/*"
+		],
+		"js": ["scripts/content.js"]
+	}],
+	"permissions": [
+		"file://*/*"
+	],
+	"minimum_chrome_version": "46.0"
+}
