@@ -1,6 +1,6 @@
-# File URI Handler
+# Chromium File Hyperlink Handler
 
-This Chromium extension intercepts file hyperlinks and open them in a new tab. This is useful because in Chrome and Edge Chromium, hyperlinks to files are blocked by default. Based on [chrome-extension_open-local-file-link](https://github.com/tksugimoto/chrome-extension_open-local-file-link) by [tksugimoto](https://github.com/tksugimoto), and modified for customizable use in an enterprise setting.
+This Chromium extension intercepts file hyperlinks and open them in a new tab. This is useful because in Chrome and Edge Chromium, hyperlinks to files are blocked by default. Based on [chrome-extension_open-local-file-link](https://github.com/tksugimoto/chrome-extension_open-local-file-link) by [tksugimoto](https://github.com/tksugimoto), and modified for use in an enterprise setting.
 
 
 ## Configuration
